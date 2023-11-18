@@ -10,7 +10,7 @@
 <body>
     <header>
         <section class="navigation-header">
-            <a href="">Logo</a>
+            <a href="#"><img src="assets/detailed-travel-logo_23-2148627268-removebg-preview.png" width="90" height="90" class="img-header"></a>
             <nav class="navigation">
                 <a href="">Home</a>
                 <a href="">Our Package</a>
@@ -19,24 +19,33 @@
         </section>
         <section class="title-header">
             <h1>Your Trusted Travel Agent's</h1>
-            <h4>Your happiness is our happiness</h4>
+            <h5>--Your happiness is our happiness--</h5>
         </section>
     </header>
 
     <main id="main-section">
         <section class="review-section">
             <img src="assets/flat-design-travel-background_23-2149193475.png" alt="">
-            <i><h5>"Liburan jadi menyenangkan bersama Travel Agentku"</h5></i>
+            <i><h4 class="h4-review">"Liburan jadi menyenangkan bersama Travel Agentku"</h4></i>
         </section>
         <section class="message-us">
-            <h5>Contact Us</h5>
-            <h6>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</h6>
+            <b><h2 class="h2-message">Contact Us!</h2></b>
+            <h5 class="h5-message">Customer service kami akan menghubungi anda 1x24 jam setelah data kami terima.</h5>
             <form action="" class="input-message-us">
-                <label for="name-input">First Name</label>
-                <input id="name-input" type="text" placeholder="First and Last Name">
-                <label for="email-input">Email</label>
-                <input id="email-input" type="text" placeholder="example@mail.com">
-                <button type="button" class="primary-button">Submit</button>
+                <b><label for="name-input">Your Name:</label></b>
+                <input id="name-input" type="text" placeholder="First and Last Name" class="name-input"> <br>
+
+                <b><label for="email-input">Email Address:</label></b>
+                <input id="email-input" type="text" placeholder="example@mail.com" class="email-input"> <br>
+
+                <label> <b>What you interested in?</b>  <br>
+                    <select>
+                        <option value="Bali">Bali</option>
+                        <option value="Raja ampat">Raja ampat</option>
+                        <option value="Maldives">Maldives</option>
+                    </select>
+                </label> <br>
+                <button type="button" class="send-button">SEND</button>
             </form>
         </section>
     </main>
