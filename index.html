@@ -10,11 +10,14 @@
 <body>
     <header>
         <section class="navigation-header">
-            <a href="#"><img src="assets/detailed-travel-logo_23-2148627268-removebg-preview.png" width="90" height="90" class="img-header"></a>
             <nav class="navigation">
-                <a href="">Home</a>
-                <a href="">Our Package</a>
-                <a href="">Call Us</a>
+                <div>
+                    <img src="assets/detailed-travel-logo_23-2148627268-removebg-preview.png" class="img-header">
+                    <a href="">Home</a>
+                    <a href="">Log in</a>
+                    <a href="">Our Package</a>
+                    <a href="">Call Us</a>
+                </div>
             </nav> 
         </section>
         <section class="title-header">
@@ -38,8 +41,9 @@
                 <b><label for="email-input">Email Address:</label></b>
                 <input id="email-input" type="text" placeholder="example@mail.com" class="email-input"> <br>
 
-                <label> <b>What you interested in?</b>  <br>
+                <label> <b>What you interested in?</b><br>
                     <select>
+                        <option value="" disabled selected hidden class="option-select"></option>
                         <option value="Bali">Bali</option>
                         <option value="Raja ampat">Raja ampat</option>
                         <option value="Maldives">Maldives</option>
