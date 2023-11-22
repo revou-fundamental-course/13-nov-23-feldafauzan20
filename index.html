@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Agent</title>
+    <title>Ojan Travel Agent</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- HEADER START -->
     <header>
         <section class="navigation-header">
             <nav class="navigation">
-                <div>
-                    <img src="assets/detailed-travel-logo_23-2148627268-removebg-preview.png" class="img-header">
+                <div id="navbar">
                     <a href="">Home</a>
                     <a href="">Log in</a>
+                    <a href="">Register</a>
                     <a href="">Our Package</a>
                     <a href="">Call Us</a>
                 </div>
@@ -25,12 +26,22 @@
             <h5>--Your happiness is our happiness--</h5>
         </section>
     </header>
+    <!-- HEADER END -->
 
+    <!-- MAIN START -->
     <main id="main-section">
+        <div class="div-main">
         <section class="review-section">
-            <img src="assets/flat-design-travel-background_23-2149193475.png" alt="">
-            <i><h4 class="h4-review">"Liburan jadi menyenangkan bersama Travel Agentku"</h4></i>
+            <img src="assets/flat-design-travel-background_23-2149193475.png" class="img-slideshow">
+            <img src="assets/bali image.png" class="img-slideshow">
+            <img src="assets/maldives.png" class="img-slideshow">
+            <div class="button-img">
+                <button onclick="plusDivs(-1)" class="button-img1"> < </button>
+                <button onclick="plusDivs(1)" class="button-img2"> > </button>
+            </div>
+            <i><h4 class="h4-review">"Liburan jadi menyenangkan bersama Ojan Travel Agent"</h4></i>
         </section>
+
         <section class="message-us">
             <b><h2 class="h2-message">Contact Us!</h2></b>
             <h5 class="h5-message">Customer service kami akan menghubungi anda 1x24 jam setelah data kami terima.</h5>
@@ -42,16 +53,73 @@
                 <input id="email-input" type="text" placeholder="example@mail.com" class="email-input"> <br>
 
                 <label> <b>What you interested in?</b><br>
-                    <select>
-                        <option value="" disabled selected hidden class="option-select"></option>
-                        <option value="Bali">Bali</option>
-                        <option value="Raja ampat">Raja ampat</option>
-                        <option value="Maldives">Maldives</option>
+                    <select class="option-select">
+                        <option value="" disabled selected hidden class="option-select">Select option</option>
+                        <option value="Bali" style="color: black;">Bali</option>
+                        <option value="Raja ampat" style="color: black;">Raja ampat</option>
+                        <option value="Maldives" style="color: black;">Maldives</option>
                     </select>
                 </label> <br>
                 <button type="button" class="send-button">SEND</button>
             </form>
         </section>
+        </div>
+        <br>
+        <section class="people">
+            <img src="assets/ojandrum.jpg" width="50" height="50">
+            <h5 class="h5-people">Felda Fauzan Alfajr</h5>
+            <i><h6 class="h6-people">Mahasiswa, 20</h6></i>
+        </section>
+
+    <div class="div-promo">
+        <section class="promo">
+            <h2>Register and enjoy new user rewards!</h2>
+            <img src="assets/gambar promo1.png" class="img-promo1">
+            <img src="assets/gambar promo2.png" class="img-promo2">
+            <img src="assets/gambar promo3.png" class="img-promo3">
+        </section>
+    </div>
+
+        <section>
+            <div class="container-page1">
+                <h1>OUR PACKAGE</h1>
+            </div>
+        </section>
+    <div class="div-package">
+        <section class="package">
+            <h4>BALI</h4>
+            <h5>Kunjungi bali dengan harga yang terjangkau</h5>
+        </section>
+        <section class="package2">
+            <h4>JAPAN</h4>
+            <h5>Kunjungi jepang dengan harga yang terjangkau</h5>
+        </section>
+        <section class="package3">
+            <h4>SINGAPORE</h4>
+            <h5>Kunjungi singapore dengan harga yang terjangkau</h5>
+        </section>
+        <section class="package4">
+            <h4>BANDUNG</h4>
+            <h5>Kunjungi bandung dengan harga yang terjangkau</h5>
+        </section>
+        <section class="package5">
+            <h4>SURABAYA</h4>
+            <h5>Kunjungi surabaya dengan harga yang terjangkau</h5>
+        </section>
+        <section class="package6">
+            <h4>MALDIVES</h4>
+            <h5>Kunjungi Maldives dengan harga yang terjangkau</h5>
+        </section>
+    </div>
     </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <h1>--YOUR HAPPINESS IS OUR HAPPINESS, HAPPY TRAVEL!--</h1>
+        <button type="button" class="footer-button">CALL TO ACTION</button>
+    </footer>
+    <!-- FOOTER END -->
+    <script src="js/script.js"></script>
 </body>
 </html>
